@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from .model import Model
 from .schemas import PredictRequest, PredictResponse
 
-app = FastApi(title="ML service")
+app = FastAPI(title="ML service")
 
 MODEL = Model(model_path="model/model.pt")
 
