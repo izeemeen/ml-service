@@ -1,0 +1,7 @@
+__pycache_/
+*.pyc
+.venv/
+.idea/
+.env
+models/*.pt
+.DS_Store
